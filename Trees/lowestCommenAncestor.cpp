@@ -55,7 +55,7 @@ void solve(){
 	cin >> n >> q;
 	adj.resize(n+1);
 	dep.resize(n+1);
-	up.resize(20,vector<int>(n+1));
+	up.resize(20,vector<int>(n+1,-1));
 	vector<vector<int>> queries(q,vector<int>(2));
 	vector<int> res;
 
