@@ -6,7 +6,7 @@ using namespace std;
     The algorithm struggles specifically with negative weight cycles, not negative edges in general. This is a nuance worth clarifying.
 */
 //It has set and priority queue implementation on dijstra
-//this Algorithm works only on sparse graph
+//this Code works only on sparse graph
 
 //Using set
 class Solution {
